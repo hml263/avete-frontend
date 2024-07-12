@@ -1,0 +1,12 @@
+{ "IndexPage":{
+    "title": "Avete"
+},
+   
+    "Navigation":{
+        "mission": "Mission"
+    },
+    "Hero":{
+        "enchancing": "Enchancing",
+        "construction": "Construction"
+    }
+  }

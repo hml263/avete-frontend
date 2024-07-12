@@ -1,0 +1,12 @@
+{ 
+    "IndexPage":{
+    "title": "Avete"
+},
+    "Navigation":{
+        "mission": "ミッション"
+    },
+    "Hero":{
+        "enchancing": "強化",
+        "construction": "工事"
+    }
+  }
