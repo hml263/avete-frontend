@@ -23,7 +23,7 @@ const Contact = () => {
         >
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
           <span className='under-line'>  Get in Touch</span><br/>
-          <span className="text-[14px] font-medium capitalize">Let us know what you're looking for, and we'll be happy to assist you. </span>
+          <span className="text-[14px] font-medium capitalize">Let us know what you are looking for, and we will be happy to assist you. </span>
           <Image
               src='/Contact-Us.jpg' height={400} width={400} alt='mission' className="rounded-md mt-12"
               /> 
