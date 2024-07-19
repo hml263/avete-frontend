@@ -60,7 +60,7 @@ const Company = () => {
                                 <div className="px-6 py-4 bg-secondary">
                                     <div className="font-bold text-xl mb-2">Koike, External Advisor    </div>
                                     <p className="text-white text-base text-justify">
-                                        He completed his bachelor&apos;s degree at IIT Kanpur before joining the Civil Engineering department of the University of Tokyo to pursue a master's in remote sensing...
+                                        He completed his bachelor&apos;s degree at IIT Kanpur before joining the Civil Engineering department of the University of Tokyo to pursue a master&apos;s in remote sensing...
                                     </p>
                                 </div>
                                 <div className="px-6 pt-4 pb-2 bg-secondary">
