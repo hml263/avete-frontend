@@ -6,8 +6,8 @@ import FadeIn from "@/lib/variants"
 
 const Blog = () => {
     return (
-        <section id='blog' className="z-30 translate-y-1 bg-primary">
-            <div className="container w-full py-[50px] lg:py-[100px]">
+        <section id='blog' className="z-30 translate-y-1 pt-[150px]">
+            <div className="container w-full ">
                 <div className="flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0">
                     <motion.div
                         variants={FadeIn('up', 0.2)}
@@ -16,7 +16,9 @@ const Blog = () => {
                         viewport={{ once: true, amount: 0.8 }}
 
                         className="justify-between ">
-                        <h1 className="pb-2 text-[20px] font-medium leading-[3rem]">News/Blog</h1>
+                             <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px]'>
+                             <span className='under-line uppercase'>News/Blog</span></h1>
+                      
                         {/* <p className="text-justify ">Coming Soon……….</p> */}
                         <div className="max-w-sm w-full lg:max-w-full lg:flex mb-4">
                             <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ ["background-image" as any]: "url('/mission-pic.png')" }} >
@@ -29,7 +31,7 @@ const Blog = () => {
                                         </svg>
                                         Admin
                                     </p>
-                                    <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                                    <div className="text-gray-900 font-bold text-xl mb-2">Lorem ipsum dolor sit amet, consectetur</div>
                                     <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
                                 </div>
                                 <div className="flex items-center">
@@ -52,7 +54,7 @@ const Blog = () => {
                                         </svg>
                                         Admin
                                     </p>
-                                    <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                                    <div className="text-gray-900 font-bold text-xl mb-2">Lorem ipsum dolor sit amet, consectetur</div>
                                     <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
                                 </div>
                                 <div className="flex items-center">

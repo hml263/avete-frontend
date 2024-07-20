@@ -6,8 +6,8 @@ import FadeIn from "@/lib/variants"
 
 const Company = () => {
     return (
-        <section id='company' className="z-30 translate-y-1 bg-primary">
-            <div className="container w-full py-[50px] lg:py-[100px]">
+        <section id='company' className="z-30 translate-y-1 pt-[150px]">
+            <div className="container w-full ">
                 <div className="flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0">
                     <motion.div
                         variants={FadeIn('up', 0.2)}
@@ -16,7 +16,9 @@ const Company = () => {
                         viewport={{ once: true, amount: 0.8 }}
 
                         className="justify-between ">
-                        <h1 className="pb-2 text-[20px] font-medium leading-[3rem]">Our Team</h1>
+                       
+                        <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px]'>
+                        <span className='under-line uppercase'>Our Team</span></h1>
                         {/* <p className="text-justify ">Coming Soon……….</p> */}
 
                         <div className="flex flex-wrap">
@@ -76,6 +78,8 @@ const Company = () => {
 
 
                 </div>
+                <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px] pt-[100px]'>
+                <span className='under-line uppercase'>Corporate Info</span></h1>
                 <motion.div
                         variants={FadeIn('up', 0.2)}
                         initial='hidden'
@@ -84,19 +88,40 @@ const Company = () => {
 
 <div className=" bg-secondary rounded-b lg:rounded-b-none lg:rounded-l  p-4 flex flex-col justify-between leading-normal  lg:w-full">
 
-    <div className="py-[120px]">
+    <div className="py-[100px]">
+    <table className="table-auto ">
+ 
+  <tbody >
+    <tr className="border-b">
+      <td className="py-4 ">Company Name </td>
 
-        <div className="text-white font-bold text-xl mb-2">Corporate Info
-        </div>
-        <p className="text-white text-base ">Name: AVETE Pvt Ltd.<br />
-            Address: Tokyo, Koto-Ku, MinamiSunamachi, ７-１-１６<br />
-            Established:　11 November 2022<br />
-            Capital: 10,000,000 Yen
-        </p>
+      <td>: AVETE Pvt Ltd.</td>
+    
+    </tr>
+    <tr className="border-b">
+      <td className="py-4 ">Address</td>
+      <td>: Tokyo, Koto-Ku, MinamiSunamachi, ７-１-１６</td>
+    
+    </tr>
+    <tr className="border-b">
+      <td className="py-4 ">Established</td>
+      <td>: 11 November 2022</td>
+    
+    </tr>
+    <tr className="border-b">
+      <td className="py-4 ">Capital</td>
+      <td>: 1,000,000 Yen</td>
+    
+    </tr>
+  </tbody>
+</table>
+      
+      
     </div>
 
 </div>
-<div className="h-48 lg:h-auto lg:w-[600px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ ["background-image" as any]: "url('/office.avif')" }} >
+<div className="h-48 lg:h-auto lg:w-[600px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ ["background-image" as any]: "url('/map.png')" }} >
+
 </div>
 </motion.div>
             </div>
