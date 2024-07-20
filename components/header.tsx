@@ -51,8 +51,7 @@ const Header = () => {
             {/* mobile nav */}
             <div className="z-50 xl:hidden">
                 <MobileNav />
-                <Link href="/en">EN |</Link> 
-                <Link href="/jp" className='ml-[-28px]'>JP</Link>
+              
             </div>
         </div>
     </header>
