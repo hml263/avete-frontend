@@ -22,7 +22,7 @@ const Hero = () => {
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row   '>
           {/* text */}
           <div className='text-center xl:text-left'>
-            <span className='text-[30px] font-medium leading-[2rem]'>{t('enchancing')}</span><br />
+            <span className='text-[30px] font-medium leading-[2rem]'>{t('enhancing')}</span><br />
             <span className='text-[30px] font-medium leading-[2rem]'>{t('construction')}</span><br />
             <h1 className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center ">
             <div>
