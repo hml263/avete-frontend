@@ -36,7 +36,7 @@ const Company = () => {
                             </div>
                         </div>
                         <div className="max-w-sm w-full lg:max-w-full lg:flex mb-4">
-                            <div className="h-48 lg:h-auto lg:w-[250px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-yellow" style={{ ["background-image" as any]: "url('/rahul.jpg')" }} >
+                            <div className="h-48 lg:h-auto lg:w-[250px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ ["background-image" as any]: "url('/Rahul.jpg')" }} >
                             </div>
                             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                                 <div className="mb-8">
@@ -52,7 +52,7 @@ const Company = () => {
                             </div>
                         </div>
                         <div className="max-w-sm w-full lg:max-w-full lg:flex mb-4">
-                            <div className="h-48 lg:h-auto lg:w-[250px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-yellow" style={{ ["background-image" as any]: "url('/koike.jpg')" }} >
+                            <div className="h-48 lg:h-auto lg:w-[250px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ ["background-image" as any]: "url('/koike.jpg')" }} >
                             </div>
                             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                                 <div className="mb-8">
