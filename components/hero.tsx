@@ -35,7 +35,7 @@ const Hero = () => {
 			/>
 		</div>            </h1>
             <span className='text-[30px] font-medium '>By Next Gen AI</span><br />
-            <div className='py-6 lg:w-2/4 xl:text-left text-center'>
+            <div className='py-6 xl:text-left text-center'>
               <p>
                 Revolutionize construction sites with our AI
                 powered solution. Our innovative tools seamlessly
@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
 
           {/* image */}
-          {/* <HeroGlobe /> */}
+          <HeroGlobe />
         </div>
       </div>
     </section>
