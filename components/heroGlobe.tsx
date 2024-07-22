@@ -13,9 +13,9 @@ const HeroGlobe = () => {
         autoPlay
         loop
         muted
-        className=" z-10 w-[700px] min-w-full min-h-full max-w-none xl:mt-[-80px]"
+        className=" z-10 w-[100%] xl:w-[700px] min-w-full min-h-full max-w-none "
       >
-        <source src="/globe.mp4" type="video/mp4" />
+        <source src="/globe1.mp4" type="video/mp4" />
       </video>
 
            <Image

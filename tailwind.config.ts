@@ -22,7 +22,7 @@ const config = {
     },
     extend: {
       colors: {
-        primary: "#291D60",
+        primary: "#2A1C60",
         secondary: "#050D28",
         lighted: "#EFEFEF",
         yellow: {
