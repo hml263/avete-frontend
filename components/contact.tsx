@@ -36,7 +36,7 @@ const Contact = () => {
         </motion.div>
         
         <motion.form
-          variants={FadeIn('left', 0.2)}
+          variants={FadeIn('up', 0.2)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.8 }}
