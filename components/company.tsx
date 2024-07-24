@@ -11,11 +11,7 @@ const Company = () => {
             <div className="container w-full ">
                 <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px] pt-[130px]'>
                     <span className='under-line uppercase'>Our Team</span></h1>
-                    <motion.div
-                    variants={FadeIn('up', 0.2)}
-                    initial='hidden'
-                    whileInView={'show'}
-                    viewport={{ once: true, amount: 0.8 }} className="">
+                   
                     <div className="grid-cols-1 sm:grid md:grid-cols-3 ">
   <div
     className="mx-3 mt-6 flex flex-col rounded-lg bg-secondary text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
@@ -77,7 +73,7 @@ const Company = () => {
     </div> */}
   </div>
 </div>
-</motion.div>
+
               
                 <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px] pt-[100px]'>
                     <span className='under-line uppercase'>Corporate Info</span></h1>

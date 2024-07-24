@@ -9,13 +9,7 @@ const Blog = () => {
         <section id='blog' className="z-30 translate-y-1 pt-[150px]">
             <div className="container w-full ">
                 <div className="flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0">
-                    <motion.div
-                        variants={FadeIn('up', 0.2)}
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: true, amount: 0.8 }}
-
-                        className="justify-between ">
+                    <div className="justify-between ">
                         <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px]'>
                             <span className='under-line uppercase'>News/Blog</span></h1>
 
@@ -76,7 +70,7 @@ const Blog = () => {
 
 
 
-                    </motion.div>
+                    </div>
 
                 </div>
             </div>
