@@ -53,7 +53,10 @@ const Header = () => {
                 <MobileNav />
               
             </div>
+            
         </div>
+
+        
     </header>
   )
 }

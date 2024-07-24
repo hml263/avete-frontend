@@ -12,13 +12,30 @@ const Hero = () => {
  
   const t = useTranslations('Hero')
    return (
-    <section className='max-w-full pt-[200px]' style={{
+    <section className='max-w-full' style={{
       // backgroundImage: `url('/global-bg.png')`,
       //  height: '720px',
       //  backgroundRepeat: 'no-repeat',
       //  backgroundSize: 'cover'
       }}>
-      <div className='container mx-auto h-full '>
+        <video
+        autoPlay
+        loop
+        muted
+        className="hidden xl:flex z-10  xl:h-[600px] min-w-full min-h-full max-w-none absolute top-0 left-0 "
+      >
+        <source src="/globe-animate.mp4" type="video/mp4" />
+      </video>
+      <video
+        autoPlay
+        loop
+        muted
+        className="sm:flex w-[100%] xl:hidden z-10 w-f min-w-full pt-[100px] max-w-none absolute "
+      >
+        <source src="/Globe-Mobile.mp4" type="video/mp4" />
+      </video>
+  
+      <div className='container mx-auto h-[700px] md:h-[1000px] xl:h-[600px] z-20 relative xl:top-[220px] md:top-[650px] top-[350px]'>
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row   '>
           {/* text */}
           <div className='text-center xl:text-left'>
@@ -35,7 +52,7 @@ const Hero = () => {
 			/>
 		</div>            </h1>
             <span className='text-[30px] font-medium '>By Next Gen AI</span><br />
-            <div className='py-6 xl:text-left text-center'>
+            <div className='py-6 xl:text-left text-center xl:w-1/2'>
               <p>
                 Revolutionize construction sites with our AI
                 powered solution. Our innovative tools seamlessly
@@ -51,7 +68,7 @@ const Hero = () => {
           </div>
 
           {/* image */}
-          <HeroGlobe />
+          {/* <HeroGlobe /> */}
         </div>
       </div>
     </section>

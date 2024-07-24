@@ -19,7 +19,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.8 }}
-          className='mb-12 mr-6 flex items-center  py-6'
+          className='mb-12 mr-6 flex items-center'
         >
           <h1 className='text-[30px] font-medium  leading-[3rem]'>
           <span className='under-line uppercase'>  Get in Touch</span><br/>
