@@ -22,7 +22,8 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="hidden xl:flex z-10  xl:h-[600px] min-w-full min-h-full max-w-none absolute top-0 left-0 "
+        className="hidden xl:flex z-10 h-[700px]  xl:h-[720px] min-w-full min-h-full  absolute top-0 left-0 "
+       
       >
         <source src="/globe-animate.mp4" type="video/mp4" />
       </video>

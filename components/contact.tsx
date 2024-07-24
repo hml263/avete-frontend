@@ -14,11 +14,8 @@ const Contact = () => {
    
 
     <div className='px6 container flex flex-col justify-between text-lg md:flex-row'>
-        <motion.div
-          variants={FadeIn('right', 0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{ once: true, amount: 0.8 }}
+        <div
+        
           className='mb-12 mr-6 flex items-center'
         >
           <h1 className='text-[30px] font-medium  leading-[3rem]'>
@@ -33,13 +30,10 @@ const Contact = () => {
         
        
               
-        </motion.div>
+        </div>
         
-        <motion.form
-          variants={FadeIn('up', 0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{ once: true, amount: 0.8 }}
+        <form
+          
           className='flex max-w-3xl flex-1 flex-col items-start gap-y-4 rounded-md bg-secondary/80 p-10'
         >
           <input
@@ -76,7 +70,7 @@ const Contact = () => {
             <p className='text-md capitalize'> Send </p>
             <Send className='h-5 w-5' />
           </button>
-        </motion.form>
+        </form>
       </div>
 </section>
 
