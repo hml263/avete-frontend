@@ -22,7 +22,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="hidden xl:flex z-10 h-[700px]  xl:h-[720px] min-w-full min-h-full  absolute top-0 left-0 "
+        className="hidden xl:flex z-10 xl:min-h-[auto] relative mx-auto"
        
       >
         <source src="/globe-animate.mp4" type="video/mp4" />
@@ -36,11 +36,11 @@ const Hero = () => {
         <source src="/Globe-Mobile.mp4" type="video/mp4" />
       </video>
   
-      <div className='container mx-auto h-[700px] md:h-[1000px] xl:h-[600px] z-20 relative xl:top-[220px] md:top-[650px] top-[350px]'>
+      <div className='container mx-auto xl:top-0  xl:h-[500px]  xl:mt-[-600px] relative top-[350px] h-[650px] md:top-[600px] md:h-[800px] '>
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row   '>
           {/* text */}
-          <div className='text-center xl:text-left'>
-            <span className='text-[30px] font-medium leading-[2rem]'>{t('enhancing')}</span><br />
+          <div className='text-center xl:text-left z-20 '>
+            <span className='text-[30px] font-medium leading-[2rem] relative top-[-18px]'>{t('enhancing')}</span><br />
             <span className='text-[30px] font-medium leading-[2rem]'>{t('construction')}</span><br />
             <h1 className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center ">
             <div>
