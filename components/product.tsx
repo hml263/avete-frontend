@@ -26,7 +26,7 @@ const Product = () => {
   <div><Image
               src='/img-04.png' height={100} width={130} alt='mission' className="relative top-[50px] rounded-xl" /></div>
   <div></div>
-  <div className="text-center text-xl relative left-[-130px] top-[60px]">Your company’s safety <br/>protocols<br/>
+  <div className="text-center text-xl relative left-[-130px] top-[60px]">Your company&apos;s safety <br/>protocols<br/>
 ⇩
 </div>
   <div className=""><div className="vertical-text ">Smart Phone<Image
