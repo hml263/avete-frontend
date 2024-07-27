@@ -12,12 +12,7 @@ const Hero = () => {
  
   const t = useTranslations('Hero')
    return (
-    <section className='max-w-full' style={{
-      // backgroundImage: `url('/global-bg.png')`,
-      //  height: '720px',
-      //  backgroundRepeat: 'no-repeat',
-      //  backgroundSize: 'cover'
-      }}>
+    <section className='max-w-full' >
         <video
         autoPlay
         loop
