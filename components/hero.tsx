@@ -7,7 +7,12 @@ import TextTransition, { presets } from 'react-text-transition';
 import HeroGlobe from './heroGlobe';
 import { Swipe } from "swipe-animate";
 
-const arrayOfWords: string[]  = ['Safety', 'Productivity', 'Training'];
+// const arrayOfWords: string[]  = ['Safety', 'Productivity', 'Training'];
+const arrayOfWords: string[] = [
+  'safety',
+  'productivity',
+  'training',
+];
 const Hero = () => {
  
   const t = useTranslations('Hero')
@@ -37,23 +42,20 @@ const Hero = () => {
           <div className='text-center xl:text-left z-20 '>
             <span className='text-[30px] font-medium leading-[2rem] relative top-[-18px]'>{t('enhancing')}</span><br />
             <span className='text-[30px] font-medium leading-[2rem]'>{t('construction')}</span><br />
-            <h1 className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center ">
-            <div>
+            <div className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center ">
+           
 			{" "}
 			<Swipe
-				words={arrayOfWords}
+				words={arrayOfWords.map((key) => t(key))}
 				intervalDuration={3000}
 				
 			
 			/>
-		</div>            </h1>
-            <span className='text-[30px] font-medium '>By Next Gen AI</span><br />
+		          </div>
+            <span className='text-[30px] font-medium '>{t('nextgen')}</span><br />
             <div className='py-6 xl:text-left text-center xl:w-1/2'>
               <p>
-                Revolutionize construction sites with our AI
-                powered solution. Our innovative tools seamlessly
-                integrate into your workflow, ensuring a safer and
-                more efficient work environment.
+              {t('herodesc')}
               </p>
             </div>
             <div className='justify-center xl:flex-row xl:space-8 mt-4 flex flex-col items-center xl:justify-start'>
