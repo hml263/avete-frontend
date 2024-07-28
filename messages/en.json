@@ -23,5 +23,15 @@
         "p-phone": "Smart Phone",
         "p-cam": "Body Cams",
         "protocols": "Your company's safety protocols"
+    },
+    "Company":{
+        "corporate-info": "CORPORATE INFO",
+        "company-name": "Company Name",
+        "address": "Address",
+        "established": "Established",
+        "capital": "Capital",
+        "avete": "AVETE Pvt Ltd.",
+        "tokyo": "Tokyo, Koto-Ku, MinamiSunamachi, ７-１-１６",
+        "e-date": "11 November 2022"
     }
   }

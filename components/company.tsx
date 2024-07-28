@@ -3,8 +3,10 @@
 import Image from "next/image"
 import { motion } from 'framer-motion'
 import FadeIn from "@/lib/variants"
+import { useTranslations } from "next-intl"
 
 const Company = () => {
+  const t = useTranslations('Company')
     return (
         <section id='company' className="z-30 translate-y-1 pt-[10px]">
 
@@ -76,7 +78,7 @@ const Company = () => {
 
               
                 <h1 className='text-[30px] font-medium  leading-[3rem] pb-[30px] pt-[100px]'>
-                    <span className='under-line uppercase'>Corporate Info</span></h1>
+                    <span className='under-line uppercase'>{t('corporate-info')}</span></h1>
                 <motion.div
                     variants={FadeIn('up', 0.2)}
                     initial='hidden'
@@ -90,23 +92,23 @@ const Company = () => {
 
                                 <tbody >
                                     <tr className="border-b">
-                                        <td className="py-4 ">Company Name </td>
+                                        <td className="py-4 ">{t('company-name')}</td>
 
-                                        <td>: AVETE Pvt Ltd.</td>
-
-                                    </tr>
-                                    <tr className="border-b">
-                                        <td className="py-4 ">Address</td>
-                                        <td>: Tokyo, Koto-Ku, MinamiSunamachi, ７-１-１６</td>
+                                        <td>: {t('avete')}</td>
 
                                     </tr>
                                     <tr className="border-b">
-                                        <td className="py-4 ">Established</td>
-                                        <td>: 11 November 2022</td>
+                                        <td className="py-4 ">{t('address')}</td>
+                                        <td>: {t('tokyo')}</td>
 
                                     </tr>
                                     <tr className="border-b">
-                                        <td className="py-4 ">Capital</td>
+                                        <td className="py-4 ">{t('established')}</td>
+                                        <td>: {t('e-date')}</td>
+
+                                    </tr>
+                                    <tr className="border-b">
+                                        <td className="py-4 ">{t('capital')}</td>
                                         <td>: 1,000,000 Yen</td>
 
                                     </tr>

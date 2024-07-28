@@ -23,5 +23,15 @@
         "p-phone": "スマートフォン",
         "p-cam": "身につけるカメラ",
         "protocols": "弊社の安全プロトコル"
+    },
+    "Company":{
+        "corporate-info": "会社概要",
+        "company-name": "会社名",
+        "address": "所在地",
+        "established": "設立",
+        "capital": "資本金",
+        "avete": "AVETE 株式会社.",
+        "tokyo": "東京都江東区東砂７丁目１番１６号",
+        "e-date": "２０２２年１１月１１日"
     }
   }
