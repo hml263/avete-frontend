@@ -42,7 +42,7 @@ const Hero = () => {
           <div className='text-center xl:text-left z-20 '>
             <span className='text-[30px] font-medium leading-[2rem] relative top-[-18px]'>{t('enhancing')}</span><br />
             <span className='text-[30px] font-medium leading-[2rem]'>{t('construction')}</span><br />
-            <div className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center ">
+            <div className="text-yellow text-[40px] uppercase font-bold  xl:flex xl:justify-start flex justify-center">
            
 			{" "}
 			<Swipe

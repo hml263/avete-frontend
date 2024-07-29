@@ -20,8 +20,8 @@ const Company = () => {
     <a href="#!">
       <img
         className="rounded-t-lg mx-auto block"
-        src="/user.png"
-        alt="CEO" width="230" height="400"/>
+        src="/uttam.jpg"
+        alt="CEO"/>
     </a>
     <div className="p-6">
       <h5 className="mb-2 text-xl font-medium leading-tight">Uttam Dwivedi, CEO</h5>
