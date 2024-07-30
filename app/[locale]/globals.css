@@ -1,44 +1,94 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
 
-  @layer base{
-    body {
-      @apply bg-primary text-lighted leading-relaxed
-    }
-    span {
-      position: relative;
-    }
-    .under-line::after {
-      content: '';
-      position: absolute;
-      bottom: -7px;
-      left: 0;
-      width: 60px;
-      height: 4px;
-      background-color: #DAEE50;
-      border-radius: 10px;
-    }
 
-    .vertical-text {
-      transform: rotate(-90deg);
-      transform-origin: left top 0;
-      }
-      .vertical-img {
-        transform: rotate(90deg);
-        transform-origin: left top 0;
-        }
-    
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+@layer base {
+  body {
+    @apply bg-primary text-lighted leading-relaxed
   }
+
+  span {
+    position: relative;
+  }
+
+  .under-line::after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #DAEE50;
+    border-radius: 10px;
+  }
+
+  .vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+  }
+
+  .vertical-img {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+  }
+.box {
+  position: relative;
+  
+}
+
+.box .content{
+  width: 200px;
+  height: 200px;
+ 
+  background: #2F1F6A;
+  transform: scaleX(0);
+  transform-origin: right;
+  animation: reveal 1s ease-in-out forwards;
+}
+
+.box .content::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20;
+  width: 250px;
+  height: 200px;
+  background: #2F1F6A;
+  z-index: 1;
+  animation: reveal 1s reverse forwards;
+  animation-delay: 5s;
+  transform-origin: right;
+}
+
+.box .content Image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes reveal{
+  0%{
+    transform: scaleX(0);
+  }
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+}
