@@ -70,6 +70,14 @@
   object-fit: cover;
 }
 
+.rotate-60{
+  transform: rotate(60deg);
+}
+
+.rotate-60down{
+  transform: rotate(-60deg);
+}
+
 @keyframes reveal{
   0%{
     transform: scaleX(0);

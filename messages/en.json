@@ -23,7 +23,14 @@
         "p-glass": "Smart Glasses",
         "p-phone": "Smart Phone",
         "p-cam": "Body Cams",
-        "protocols": "Your company\u0027s safety protocols"
+        "protocols": "Your company\u0027s safety protocols",
+        "p-ai": "Generative AI cloud server",
+        "p-capture": "Capture images/videos of site",
+        "p-q1": "How many stepladders are present?",
+        "p-q2": "Is stepladder properly secured?",
+        "p-q3": "Is handrail installed?",
+        "p-q4": "How many workers are working?",
+        "p-q5": "Is worker working on Stepladder?"
     },
     "Company":{
         "corporate-info": "CORPORATE INFO",
