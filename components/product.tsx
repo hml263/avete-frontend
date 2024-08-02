@@ -107,8 +107,8 @@ const Product = () => {
           </tbody>
         </table>
         <div className="hidden xl:flex relative left-[120px] bottom-[50px]">{t('p-capture')}       </div>
-        <div className="w-[200px] h-[1px] bg-white relative bottom-[500px] left-[340px] rotate-60  "></div>
-        <div className="w-[200px] h-[1px] bg-white relative bottom-[240px] left-[340px] rotate-60down  "></div>
+        <div className="hidden xl:flex w-[200px] h-[1px] bg-white relative bottom-[500px] left-[340px] rotate-60  "></div>
+        <div className="hidden xl:flex w-[200px] h-[1px] bg-white relative bottom-[240px] left-[340px] rotate-60down  "></div>
       </div>
     </section>
   )
