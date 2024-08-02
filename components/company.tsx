@@ -26,7 +26,7 @@ const Company = () => {
     <div className="p-6">
       <h5 className="mb-2 text-xl font-medium leading-tight">Uttam Dwivedi, CEO</h5>
       <p className="mb-4 text-sm text-justify">
-      He completed his bachelor's at IIT Kanpur and pursued a master's in remote sensing at the University of Tokyo. He then led smart construction solutions using AI at Ando Hazama Corporation. His focus on seamless technology integration enhances user experience and productivity. With extensive consulting and leadership in generative AI projects, he has significantly contributed to manufacturing, construction, and management consulting, making technology an invisible yet powerful ally for users. </p>
+      He completed his bachelor&apos;s at IIT Kanpur and pursued a master&apos;s in remote sensing at the University of Tokyo. He then led smart construction solutions using AI at Ando Hazama Corporation. His focus on seamless technology integration enhances user experience and productivity. With extensive consulting and leadership in generative AI projects, he has significantly contributed to manufacturing, construction, and management consulting, making technology an invisible yet powerful ally for users. </p>
     </div>
     {/* <div
       className="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
@@ -65,7 +65,7 @@ const Company = () => {
     <div className="p-6">
       <h5 className="mb-2 text-xl font-medium leading-tight">KOIKE TSUNEO, External Advisor</h5>
       <p className="mb-4 text-sm text-justify">
-      With years of construction industry experience, he now leverages his expertise in AI development for the industry. His deep understanding of construction processes and technologies brings a unique perspective to AI solutions, ensuring practicality, efficiency, and innovation. Committed to driving advancements, he aims to transform the industry and improve safety through strategic insights. His vision plays a key role in achieving Avete’s mission of revolutionizing the construction industry. </p>
+      With years of construction industry experience, he now leverages his expertise in AI development for the industry. His deep understanding of construction processes and technologies brings a unique perspective to AI solutions, ensuring practicality, efficiency, and innovation. Committed to driving advancements, he aims to transform the industry and improve safety through strategic insights. His vision plays a key role in achieving Avete&apos;s mission of revolutionizing the construction industry. </p>
     </div>
     {/* <div
       className="mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
