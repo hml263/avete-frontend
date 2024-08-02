@@ -36,7 +36,7 @@ const Hero = () => {
         <source src="/Globe-Mobile.mp4" type="video/mp4" />
       </video>
   
-      <div className='container mx-auto xl:top-[100px] dk:top-[-80px] xl:h-[500px]  xl:mt-[-600px] relative top-[350px] h-[650px] md:top-[600px] md:h-[800px] '>
+      <div className='container mx-auto  xl:h-[500px]  xl:mt-[-600px] relative top-[350px] h-[650px] dk:top-[-80px] lg:top-[30px] xl:top-[50px] md:top-[600px] md:h-[800px] '>
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row   '>
           {/* text */}
           <div className='text-center xl:text-left z-20 '>

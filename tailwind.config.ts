@@ -20,6 +20,7 @@ const config = {
       lg: "960px",
       xl: "1200px",
       dk: "1900px"
+
     },
     extend: {
       colors: {
