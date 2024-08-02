@@ -16,7 +16,7 @@ const Product = () => {
               <span className='under-line uppercase'>Seeing with Insight</span></h1>
 
 
-            <p className="text-justify ">With advancements in IoT and AI technologies, construction sites are generating massive amounts of data. Utilizing this data effectively is more important than ever to maximize impact and draw meaningful insights. Our platform leverages this data to recommend context-specific safety guidelines for common construction activities, promoting continuous learning and enhanced safety protocols.
+            <p className="text-justify ">{t('p-description')}
 
             </p><br />
             <br /><br />
