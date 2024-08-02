@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { motion } from 'framer-motion'
 import FadeIn from "@/lib/variants"
+import Link from "next/link"
 
 const Blog = () => {
     return (
@@ -34,7 +35,7 @@ const Blog = () => {
 
                                     <div className="text-sm">
 
-                                        <p className="text-gray-600">View More</p>
+                                    <Link href='/en/blogs/1'  > <p className="text-gray-600">View More</p></Link>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +60,7 @@ const Blog = () => {
 
                                     <div className="text-sm">
 
-                                        <p className="text-gray-600">View More</p>
+                                    <Link href='/en/blogs/2'  > <p className="text-gray-600">View More</p></Link>
                                     </div>
                                 </div>
                             </div>

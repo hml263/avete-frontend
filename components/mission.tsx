@@ -9,7 +9,7 @@ import { useTranslations } from "next-intl"
 const Mission = () => {
     const t = useTranslations('Mission')
     return (
-        <section id='mission' className="z-30 translate-y-1 pt-[250px]">
+        <section id='mission' className="z-30 translate-y-1 pt-[180px]">
             <div className="container w-full " >
                 <div className="flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0">
                     <motion.div

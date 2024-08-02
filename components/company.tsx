@@ -117,8 +117,8 @@ const Company = () => {
                         </div>
 
                     </div>
-                    <div className="h-48 lg:h-auto lg:w-[600px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{ backgroundImage: `url('/map.png')` }} >
-
+                    <div className="h-48 lg:h-auto lg:w-[600px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2774531987693!2d139.8395811!3d35.670169699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188865e30818b9%3A0x7300c9d10b613035!2s7-ch%C5%8Dme-1-16%20Higashisuna%2C%20Koto%20City%2C%20Tokyo%20136-0074%2C%20Japan!5e0!3m2!1sen!2sth!4v1722590339529!5m2!1sen!2sth" width="600" height="460"   loading="lazy"></iframe>
                     </div>
                 </motion.div>
              
