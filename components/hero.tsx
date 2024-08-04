@@ -7,7 +7,6 @@ import TextTransition, { presets } from 'react-text-transition';
 import HeroGlobe from './heroGlobe';
 import { Swipe } from "swipe-animate";
 
-
 // const arrayOfWords: string[]  = ['Safety', 'Productivity', 'Training'];
 const arrayOfWords: string[] = [
   'safety',
@@ -53,8 +52,8 @@ const Hero = () => {
 				
 			
 			/>
-      </div>
 		          </div>
+              </div>
             <span className='text-[30px] font-medium '>{t('nextgen')}</span><br />
             <div className='py-6 xl:text-left text-center xl:w-1/2'>
               <p>
@@ -69,12 +68,10 @@ const Hero = () => {
           </div>
 
           {/* image */}
-       
+          {/* <HeroGlobe /> */}
         </div>
       </div>
-     
     </section>
-    
   )
 }
 

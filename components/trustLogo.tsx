@@ -10,8 +10,6 @@ const TrustLogo = () => {
              <Image src='/avete-logo.png' width={120} height={120} alt='logo' />
              <Image src='/avete-logo.png' width={120} height={120} alt='logo' />
              <Image src='/avete-logo.png' width={120} height={120} alt='logo' />
-             <Image src='/avete-logo.png' width={120} height={120} alt='logo' />
-             <Image src='/avete-logo.png' width={120} height={120} alt='logo' />
         </div>
     </div>
   )

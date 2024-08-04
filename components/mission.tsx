@@ -36,8 +36,6 @@ const Mission = () => {
                     <Image
               src='/mission-pic.png' height={400} width={400} alt='mission' className="rounded-3xl "
               /> 
-
-              
                     </motion.div>
                 </div>
             </div>
